@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/signtoolbar"
+    android:orientation="vertical"
+    tools:context="com.example.vikram.charla.SignInActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/colorAccent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="LOGIN"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:gravity="bottom"/>
+
+    </LinearLayout>
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+
+        android:id="@+id/googlebtn">
+    </com.google.android.gms.common.SignInButton>
+
+
+    <TextView
+        android:text="-----OR-----"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="29dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight="#696969"
+        android:id="@+id/email"
+        android:background="@drawable/outlinedrawable"
+        android:hint="Email"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#696969" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:background="@drawable/outlinedrawable"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:textColor="#696969"
+        android:textColorHighlight="#696969"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:fontFamily="sans-serif" />
+
+    <Button
+        android:text="LOGIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:id="@+id/Logbtn"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/password"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:text="Don't have an account?  SIGN UP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Logbtn"
+        android:textColor="@color/colorAccent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+
+        android:layout_marginTop="25dp"
+        android:id="@+id/signuptxt" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "896890910979",
+    "firebase_url": "https://charla-37408.firebaseio.com",
+    "project_id": "charla-37408",
+    "storage_bucket": "charla-37408.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896890910979:android:7988affe43aa01af",
+        "android_client_info": {
+          "package_name": "com.example.vikram.charla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896890910979-smi72kgnh4b86g1urg2idq9tn1f2napi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG0DTnvTI-AUwdSG3XppAnWOqdy_npHiA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
